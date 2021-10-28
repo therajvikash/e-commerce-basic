@@ -1,0 +1,30 @@
+{
+  "name": "e-commerce-basic",
+  "version": "1.0.0",
+  "description": "this is an example of basic e-commerce backend application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "bcrypt",
+    "node",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "vikash",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  }
+}
